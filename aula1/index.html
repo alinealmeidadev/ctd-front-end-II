@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula1
+
+    </title>
+</head>
+
+<body>
+
+    <h1>Primeira Aula</h1>
+
+    <!-- 1 = pedra, 2 = papel, 3 = tesoura -->
+    <script>
+
+
+        // const, let e var
+        // ***const = valor não se altera
+        // ***var = escopo (script) global
+        // ***let = cria variáveis em funções, arrays (só existe dentro do escopo)
+
+        // const userName = 'Aline' 
+
+        /*   var userName = ''
+          var userEmail = ''
+          var isAdmin = false
+  
+          function dadosUsuarios() {
+  
+              let userFirstName = ''
+          } */
+
+        /* //***CONSOLE.LOG
+        console.log('Olá Mundo!')
+
+    
+        //***ALERT
+        alert('Olá Mundo')
+        
+        //***PROMPT
+        prompt('Qual seu nome?')
+        
+        //***CONFIRM
+        confirm('Você perdeu essa rodada, deseja jogar novamente?')
+
+     */
+
+        var jogadaUsuario = Number(prompt('O que você deseja jogar? 1 = pedra, 2 = papel, 3 = tesoura'))
+
+
+        var jogadaScript = Math.floor(Math.random() * 3) + 1 //gera nº aleatório e formata para n° inteiro
+
+        console.log('Jogada usuario: ' + jogadaUsuario)
+        console.log('Jogada script: ' + jogadaScript)
+
+
+        if (jogadaUsuario == jogadaScript) {
+
+            alert('Empatou!!')
+
+        } else {
+
+            if(jogadaUsuario == 1) {
+
+                if (jogadaScript == 2) {
+
+                    alert('Você perdeu')
+                
+                }else if (jogadaScript == 2) {
+
+                if (jogadaScript == 3) {
+
+                    alert('Você Ganhou!')
+
+                } else if { 
+                    (JogadaScript == 3) {
+
+                    alert('Você Perdeu')
+                }
+            }
+
+        }
+            if (jogadaUsuario < 3)
+
+                alert('Você ganhou!!')
+
+
+
+            else {
+                alert('Empatou')
+            }
+        } 
+
+    
+
+        /*         var jogadaUsuario = 1
+        var jogadaScript = 2
+
+
+        if(jodagaUsuario < jogadaScript) {
+
+        } else {
+
+        }
+ */
+
+
+
+    </script>
+
+
+</body>
+
+</html>
